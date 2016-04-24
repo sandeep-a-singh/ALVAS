@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_profile_background"
+    tools:context="students.alvas.school.alvas.StudentProfile">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+<students.alvas.school.alvas.RoundedImageView
+
+    android:layout_height="180dp"
+    android:layout_width="180dp"
+    android:layout_gravity="center"
+    android:background="@drawable/icon_profile"
+    ></students.alvas.school.alvas.RoundedImageView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Name"
+            android:textSize="15sp"
+            ></TextView>
+        <TextView
+            android:id="@+id/student_name"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40sp"
+            android:text="Sunny Singh"
+            android:textSize="25sp"
+            ></TextView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="USN"
+            android:textSize="15sp"
+            ></TextView>
+        <TextView
+            android:id="@+id/student_username"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40sp"
+            android:text="12345678"
+            android:textSize="25sp"
+            ></TextView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="College"
+            android:textSize="15sp"
+            ></TextView>
+        <TextView
+            android:id="@+id/student_collegename"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40sp"
+            android:text="ALVAS"
+            android:textSize="25sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Chakravyuh ID"
+            android:textSize="15sp"
+            ></TextView>
+        <TextView
+            android:id="@+id/student_chakravyuh_id"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40sp"
+            android:text="ABCD-1234"
+            android:textSize="25sp"
+            ></TextView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="D-O-B"
+            android:textSize="15sp"
+            ></TextView>
+        <TextView
+            android:id="@+id/student_dob"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40sp"
+            android:text="8th-May-1993"
+            android:textSize="25sp"
+            ></TextView>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="8"
+    android:layout_margin="10dp"
+    >
+    <ImageButton
+        android:layout_weight="6"
+        android:layout_width="230dp"
+        android:layout_height="40sp"
+        android:background="@drawable/call_student"/>
+    <TextView
+        android:id="@+id/student_number"
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40sp"
+        android:text="9876543210"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        android:layout_weight="2"
+        ></TextView>
+
+    </LinearLayout>
+
+      <FrameLayout
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+
+          android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/geteventlist"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btnbg">
+        </ImageButton>
+
+          <TextView
+              android:id="@+id/student_events"
+              android:layout_width="fill_parent"
+
+              android:layout_height="40sp"
+              android:text="Events"
+              android:layout_gravity="center"
+              android:textSize="25sp"
+              android:layout_weight="2"
+              ></TextView>
+
+      </FrameLayout>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

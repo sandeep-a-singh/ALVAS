@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_profile_background"
+    tools:context="students.alvas.school.alvas.Students_event_fragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="487dp"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+   android:layout_height="80dp"
+    android:layout_width="fill_parent"
+    android:background="@drawable/btnbg">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_gravity="center">
+        <TextView
+            android:gravity="center"
+
+            android:text="NO"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"></TextView>
+        <View
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:background="#FF0000FF" />
+
+        <TextView
+
+            android:text="EVENT NAME"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"></TextView>
+        <View
+
+            android:layout_gravity="center"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="#FF0000FF" />
+        <TextView
+            android:gravity="center"
+
+            android:text="STATUS"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+           ></TextView>
+
+    </LinearLayout>
+
+</FrameLayout>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+android:id="@+id/event_details"
+        ></ListView>
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_gravity="center|bottom">
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_gravity="center">
+          <ImageButton
+              android:id="@+id/student_registered_event"
+              android:layout_margin="10dp"
+              android:layout_gravity="center"
+
+              android:layout_width="300dp"
+              android:layout_height="60dp"
+              android:background="@drawable/btnbg">
+          </ImageButton>
+          <ImageView
+
+             android:layout_gravity="center"
+              android:layout_width="50dp"
+              android:background="@drawable/camera"
+              android:layout_height="50dp"
+
+              />
+
+
+      </FrameLayout></RelativeLayout>
+</FrameLayout>
